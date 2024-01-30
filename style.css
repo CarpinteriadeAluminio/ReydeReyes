@@ -280,7 +280,7 @@ body{
 }
 .header .top-contact li{
 	display:inline-block;
-	margin-left:50px;
+	margin-left:5px;
 	color:#2C2D3F;
 }
 .header .top-contact li:last-child{
