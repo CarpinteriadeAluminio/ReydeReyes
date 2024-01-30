@@ -329,7 +329,7 @@ body{
 }
 .header .nav li a {
 	color: #2C2D3F;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 500;
 	text-transform: capitalize;
 	padding: 25px 12px;
@@ -590,7 +590,7 @@ body{
 	Start Hero Area CSS
 =============================*/
 .slider .single-slider {
-	height: 560px;
+	height: 750px;
 	background-size: cover;
 	background-position: center;
 	background-repeat:no-repeat;
@@ -682,6 +682,16 @@ body{
 .owl-item.active .single-slider .button{
     animation: fadeInDown 1s both 1.5s;
 }
+
+
+
+@media only screen and (min-width:320px) and (max-width:720px){
+
+.slider .single-slider{
+	height: 800px;
+}
+}
+
 /*===========================
 	End Hero Area CSS
 =============================*/
